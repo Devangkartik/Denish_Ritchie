@@ -1,0 +1,22 @@
+/**************************DEVANG KARTIK************************************/
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b;
+clrscr();
+printf("Enter the first number" :);
+scanf("%d",&a);
+printf("Enter the second number" :);
+scanf("%d",&b);
+if(a>b)
+{
+printf("%d is greater then %d",a,b);
+}
+else
+{
+printf("%d is greater then %d",b,a);
+}
+getch();
+}

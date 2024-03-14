@@ -1,0 +1,17 @@
+#include<iostream.h>
+#include<conio.h>
+class x   //userdefine
+{
+public:
+int a,b; //instance variable
+};
+void main()
+{
+int a,b;
+clrscr();
+x obj;   //creat object of class
+obj.a=1000;
+obj.b=1000;
+cout<<"sum = "<<obj.a+obj.b;
+getch();
+}

@@ -1,0 +1,38 @@
+
+/******************************DEVANG KARTIK******************************/
+
+#include<iostream.h>
+#include<conio.h>
+int main()
+{
+int x,y,oprator;
+cout<<"Enter the first number : "<<endl;
+cin>>x;
+cout<<"choose anyone oprator(+,-,*,/) : ";
+cin>>oprator;
+cout<<"Enter the second number";
+cin>>y;
+switch(oprator)
+{
+case '+ ':
+cout<<x<<"+"<<y<<"="<<x+y;
+break;
+
+case '-' :
+cout<<x<<"-"<<y<<"="<<x-y;
+break;
+
+case '*' :
+cout<<x<<"*"<<y<<"="<<x*y;
+break;
+
+case '/' :
+cout<<x<<"/"<<y<<"="<<x/y;
+break;
+
+default:
+cout<<oprator<<"this operator is not find here Plzzzz try again";
+break;
+}
+getch();
+}
